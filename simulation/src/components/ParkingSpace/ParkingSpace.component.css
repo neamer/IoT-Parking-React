@@ -1,0 +1,58 @@
+.space > img {
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+
+.space {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.space:active {
+  background-color: rgba(240, 248, 255, 0.301);
+}
+
+.space:hover {
+  background-color: rgba(240, 248, 255, 0.096);
+}
+
+.spaceTOP {
+  border-right: 3px solid white;
+}
+
+.spaceRIGHT > img {
+  transform: rotate(90deg) translateY(-25px);
+}
+
+.spaceLEFT > img {
+  transform: rotate(-90deg) translateY(25px);
+}
+
+.spaceMIDDLEBOTTOM > img {
+  width: 60px;
+  transform: rotate(180deg);
+}
+
+.spaceMIDDLEBOTTOM {
+  border-top: 3px solid white;
+}
+
+.spaceTOP-last {
+  border-right: none;
+}
+
+.taken-space > img {
+  opacity: 1;
+}
+
+.horizontal-row > .last {
+  border: none;
+}
+
+.vertical-row > .last {
+  border: none;
+}
+
+.horizontal-row > .lastMiddle {
+  border-right: none;
+}

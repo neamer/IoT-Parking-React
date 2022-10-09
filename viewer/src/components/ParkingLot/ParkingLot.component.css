@@ -1,0 +1,66 @@
+.parking-lot-wrapper {
+  width: 1366px;
+  height: 737px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#parentTOP,
+#parentMIDDLETOP,
+#parentMIDDLEBOTTOM {
+  display: flex;
+  justify-content: center;
+}
+
+#parentTOP {
+  margin: auto;
+}
+
+#parentBOTTOM {
+  display: flex;
+  justify-content: center;
+}
+
+#parentRIGHT {
+  display: flex;
+  flex-direction: column;
+}
+
+#parentMIDDLE {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.horizontal-row > .space {
+  padding: 10px;
+}
+
+.horizontal-row > div {
+  border-right: 3px solid white;
+}
+
+.vertical-row > div {
+  border-bottom: 3px solid white;
+}
+
+.horizontal-row > div > img {
+  width: 60px;
+}
+
+.vertical-row > div > img {
+  width: 60px;
+  transform-origin: center;
+}
+
+.middle-grid {
+  display: grid;
+  grid-template-columns: 115px 1fr 115px;
+}
+
+.parentMIDDLE {
+  flex-grow: 2;
+  align-content: center;
+  justify-content: center;
+}
